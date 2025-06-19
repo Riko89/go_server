@@ -1,0 +1,15 @@
+# Go build artifacts
+/bin/
+*.exe
+*.log
+
+# IDE / OS / editor files
+.DS_Store
+*.swp
+*.sublime-workspace
+.vscode/
+
+# Environment and sensitive config
+.env
+config.json
+secrets.yml

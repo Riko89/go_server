@@ -1,0 +1,7 @@
+{{ define "title" }}Home{{ end }}
+
+{{ define "body" }}
+    <h1>Welcome</h1>
+    <button hx-get="/hello" hx-target="#response">Click me</button>
+    <div id="response"></div>
+{{ end }}
